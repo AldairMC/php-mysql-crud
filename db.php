@@ -1,5 +1,5 @@
 <?php
-
+//Connection with Database 
 $conn = mysqli_connect(
     'localhost',
     'root',
@@ -7,9 +7,10 @@ $conn = mysqli_connect(
     'php_mysql_crud'
 
 );
-
+/*
 if(isset($conn)): 
     echo " DB CONNECT "; 
 endif
+*/
 
 ?>
